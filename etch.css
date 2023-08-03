@@ -5,7 +5,7 @@ body{
 
     width:100vw;
     height:100vh;
-    background-image:url("https://thewallpaper.co//wp-content/uploads/2016/10/light-wood-wallpaper-background-hd-hd-background-wallpapers-free-amazing-cool-tablet-4k-high-definition-1920x1200.jpg");
+    background-image:url("images/rows-assorted-stationery.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,6 +32,9 @@ body{
     height: 20em;
     width: 25em;
     background-color:white;
+    -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.75);
     
 }
 
@@ -118,3 +121,11 @@ body{
 }
 
 
+#outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}

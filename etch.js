@@ -42,9 +42,9 @@ function resizeGrid()
 {
     do{
         num=parseInt(prompt("How many squares per side would you like your grid to be?"
-        + '\n' + "Please choose a value between 1-100."));
+        + '\n' + "Please choose a value between 10-100."));
 
-        if(num>100 || num<2 || typeof num !== 'number')
+        if(num>100 || num<10 || typeof num !== 'number')
             alert("Invalid input. Please choose a value between 1-100.");
         else if(isNaN(num))
         {
@@ -56,7 +56,7 @@ function resizeGrid()
             resetGrid();
         }
     }
-    while(num>100 || num <1 || typeof num !== 'number');
+    while(num>100 || num <10 || typeof num !== 'number');
 }
 
 //Purpose: Clear the grid
